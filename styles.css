@@ -1,0 +1,34 @@
+body {
+    background-color: #002147;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    animation: changeImage 10s infinite;
+}
+
+#circle1 { animation-delay: 0s; }
+#circle2 { animation-delay: 2s; }
+#circle3 { animation-delay: 4s; }
+#circle4 { animation-delay: 6s; }
+#circle5 { animation-delay: 8s; }
+
+@keyframes changeImage {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
