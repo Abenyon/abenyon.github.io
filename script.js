@@ -1,5 +1,5 @@
 const imagePaths = [
-    "https://raw.githubusercontent.com/username/repository-name/main/path-to-image/image1.jpg",
+    "alex_benyon_A_striking_image_related_to_astronomy_that_could__55b329d9-3450-4716-8ee4-a2beaf4ef6a5_3.png",
     "https://raw.githubusercontent.com/username/repository-name/main/path-to-image/image2.jpg",
     "https://raw.githubusercontent.com/username/repository-name/main/path-to-image/image3.jpg",
     "https://raw.githubusercontent.com/username/repository-name/main/path-to-image/image4.jpg",
